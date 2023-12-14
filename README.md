@@ -22,4 +22,6 @@ Parte 1:
 
 Parte 2:
 
-- Respuesta Ej1: 
+- Respuesta Ej1: diferncias entre c y c++ en el código, C++: std::string nombre. C: char nombre[50]. C++: Gestión dinámica de memoria (std::string). C: Arrays de caracteres, gestión manual. C++: std::cout, std::endl. C: printf. C++: std::cout, std::endl.
+  C: printf.
+- 
