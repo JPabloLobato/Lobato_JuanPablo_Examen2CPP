@@ -115,8 +115,8 @@ build Ej_1_C.exe: C_EXECUTABLE_LINKER__Ej_1_C_Debug CMakeFiles/Ej_1_C.dir/Estudi
 
 build cmake_object_order_depends_target_Ej_2_CPP: phony || CMakeFiles/Ej_2_CPP.dir
 
-build CMakeFiles/Ej_2_CPP.dir/Estudiantes.cpp.obj: CXX_COMPILER__Ej_2_CPP_unscanned_Debug C$:/Users/tinitotin/OneDrive/Documentos/GitHub/Lobato_JuanPablo_Examen2CPP/Estudiantes.cpp || cmake_object_order_depends_target_Ej_2_CPP
-  DEP_FILE = CMakeFiles\Ej_2_CPP.dir\Estudiantes.cpp.obj.d
+build CMakeFiles/Ej_2_CPP.dir/Materia.cpp.obj: CXX_COMPILER__Ej_2_CPP_unscanned_Debug C$:/Users/tinitotin/OneDrive/Documentos/GitHub/Lobato_JuanPablo_Examen2CPP/Materia.cpp || cmake_object_order_depends_target_Ej_2_CPP
+  DEP_FILE = CMakeFiles\Ej_2_CPP.dir\Materia.cpp.obj.d
   FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Ej_2_CPP.dir
   OBJECT_FILE_DIR = CMakeFiles\Ej_2_CPP.dir
@@ -129,7 +129,7 @@ build CMakeFiles/Ej_2_CPP.dir/Estudiantes.cpp.obj: CXX_COMPILER__Ej_2_CPP_unscan
 #############################################
 # Link the executable Ej_2_CPP.exe
 
-build Ej_2_CPP.exe: CXX_EXECUTABLE_LINKER__Ej_2_CPP_Debug CMakeFiles/Ej_2_CPP.dir/Estudiantes.cpp.obj
+build Ej_2_CPP.exe: CXX_EXECUTABLE_LINKER__Ej_2_CPP_Debug CMakeFiles/Ej_2_CPP.dir/Materia.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Ej_2_CPP.dir
