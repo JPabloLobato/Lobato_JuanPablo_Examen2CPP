@@ -1,0 +1,123 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Lobato_JuanPablo_Examen2CPP",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Ej_1_C::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ej_1_C-Debug-36aa9ce28332b95450c4.json",
+					"name" : "Ej_1_C",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ej_1_CPP::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ej_1_CPP-Debug-440317cb2e32702e12f0.json",
+					"name" : "Ej_1_CPP",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ej_2_C::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ej_2_C-Debug-52dde576bd1b46caf1d7.json",
+					"name" : "Ej_2_C",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ej_2_CPP::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ej_2_CPP-Debug-d7ce2c8ab6efc37f2732.json",
+					"name" : "Ej_2_CPP",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ej_3_C::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ej_3_C-Debug-490a0f18759378c8d7fd.json",
+					"name" : "Ej_3_C",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ej_3_CPP::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ej_3_CPP-Debug-2de32c2828c3681b4d53.json",
+					"name" : "Ej_3_CPP",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ej_4_C::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ej_4_C-Debug-51d03074d958d4445c9a.json",
+					"name" : "Ej_4_C",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ej_4_CPP::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ej_4_CPP-Debug-33a4e43a56e61408ef4a.json",
+					"name" : "Ej_4_CPP",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/tinitotin/OneDrive/Documentos/GitHub/Lobato_JuanPablo_Examen2CPP/cmake-build-debug",
+		"source" : "C:/Users/tinitotin/OneDrive/Documentos/GitHub/Lobato_JuanPablo_Examen2CPP"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

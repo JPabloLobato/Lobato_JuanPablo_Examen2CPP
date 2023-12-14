@@ -26,3 +26,12 @@ Parte 2:
 
 - Respuesta Ej1: diferncias entre c y c++ en el código, C++: std::string nombre. C: char nombre[50]. C++: Gestión dinámica de memoria (std::string). C: Arrays de caracteres, gestión manual. C++: std::cout, std::endl. C: printf. C++: std::cout, std::endl.
   C: printf.
+- Ej5 (conclusión): 
+
+¿Cuál de los dos lenguajes consideras más adecuado para el proyecto del CGEA? 
+ 
+Considero que C++ sería más adecuado para el proyecto CGEA debido a sus características orientadas a objetos, rendimiento y amplias bibliotecas que pueden facilitar el desarrollo y mantenimiento del sistema.
+
+¿Qué recomendaciones harías al equipo de desarrollo del CGEA para la siguiente fase del proyecto?
+
+Para la próxima etapa del proyecto, deberían que se aseguren de explicar bien cómo funciona el código, hagan muchas pruebas para asegurarse de que todo funcione correctamente y piensen en cómo hacer que el sistema sea fácil de entender y mantener en el futuro.
