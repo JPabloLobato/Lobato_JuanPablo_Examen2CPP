@@ -106,6 +106,39 @@ build Ej_1_C.exe: C_EXECUTABLE_LINKER__Ej_1_C_Debug CMakeFiles/Ej_1_C.dir/Estudi
   TARGET_IMPLIB = libEj_1_C.dll.a
   TARGET_PDB = Ej_1_C.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Ej_2_CPP
+
+
+#############################################
+# Order-only phony target for Ej_2_CPP
+
+build cmake_object_order_depends_target_Ej_2_CPP: phony || CMakeFiles/Ej_2_CPP.dir
+
+build CMakeFiles/Ej_2_CPP.dir/Estudiantes.cpp.obj: CXX_COMPILER__Ej_2_CPP_unscanned_Debug C$:/Users/tinitotin/OneDrive/Documentos/GitHub/Lobato_JuanPablo_Examen2CPP/Estudiantes.cpp || cmake_object_order_depends_target_Ej_2_CPP
+  DEP_FILE = CMakeFiles\Ej_2_CPP.dir\Estudiantes.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ej_2_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ej_2_CPP.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Ej_2_CPP
+
+
+#############################################
+# Link the executable Ej_2_CPP.exe
+
+build Ej_2_CPP.exe: CXX_EXECUTABLE_LINKER__Ej_2_CPP_Debug CMakeFiles/Ej_2_CPP.dir/Estudiantes.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Ej_2_CPP.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Ej_2_CPP.exe
+  TARGET_IMPLIB = libEj_2_CPP.dll.a
+  TARGET_PDB = Ej_2_CPP.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -136,6 +169,8 @@ build Ej_1_C: phony Ej_1_C.exe
 
 build Ej_1_CPP: phony Ej_1_CPP.exe
 
+build Ej_2_CPP: phony Ej_2_CPP.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -144,7 +179,7 @@ build Ej_1_CPP: phony Ej_1_CPP.exe
 #############################################
 # Folder: C:/Users/tinitotin/OneDrive/Documentos/GitHub/Lobato_JuanPablo_Examen2CPP/cmake-build-debug
 
-build all: phony Ej_1_CPP.exe Ej_1_C.exe
+build all: phony Ej_1_CPP.exe Ej_1_C.exe Ej_2_CPP.exe
 
 # =============================================================================
 # Built-in targets

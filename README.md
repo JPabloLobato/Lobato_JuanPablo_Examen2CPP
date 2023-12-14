@@ -2,11 +2,13 @@
 
 URL del repositorio: https://github.com/JPabloLobato/Lobato_JuanPablo_Examen2CPP.git
 
-Explicación:
+Instruciones::
 
 - La parte 1 del examen se encuentra en este mismo readme a continuación. 
 
 - La parte 2 estan en archivos de cpp y c, en el encabezado se indica cual es cada ejercicio, si se necesitan dos lenguajes para un ejercicio el archivo tendra el mismo nombre pero diferente extensión.
+
+- Para ejecutar los ejercicios solo tienes que cambiar al Ej_(número de ejrcicio)_(extensión del archivo) veras los nombres en el CMakeList.
 
 - Si en la parte 2 hay que responder algo que no sea código estará en este readme debajo de la parte 1.
 
@@ -24,4 +26,3 @@ Parte 2:
 
 - Respuesta Ej1: diferncias entre c y c++ en el código, C++: std::string nombre. C: char nombre[50]. C++: Gestión dinámica de memoria (std::string). C: Arrays de caracteres, gestión manual. C++: std::cout, std::endl. C: printf. C++: std::cout, std::endl.
   C: printf.
-- 
