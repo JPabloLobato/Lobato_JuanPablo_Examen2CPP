@@ -9,3 +9,6 @@ add_executable(Ej_1_C
         Estudiantes.c)
 add_executable(Ej_2_CPP
         Materia.cpp)
+add_executable(Ej_2_C
+        Materia.c)
+
