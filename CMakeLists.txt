@@ -3,5 +3,7 @@ project(Lobato_JuanPablo_Examen2CPP)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Lobato_JuanPablo_Examen2CPP
+add_executable(Ej_1_CPP
         Estudiantes.cpp)
+add_executable(Ej_1_C
+        Estudiantes.c)

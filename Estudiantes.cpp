@@ -1,20 +1,24 @@
-//Parte 1 Ej1
+//Parte 1 Ej1 en C++
 
-#include <stdio.h>
+#include <iostream>
+#include <string>
 
 struct Estudiante {
-    char nombre[50];
+    std::string nombre;
     int edad;
     float promedio;
 };
-void mostrarEstudiante(const struct Estudiante* estudiante) {
-    printf("Nombre: %s\n", estudiante->nombre);
-    printf("Edad: %d\n", estudiante->edad);
-    printf("Promedio: %f\n", estudiante->promedio);
+
+void mostrarEstudiante(const Estudiante& estudiante) {
+    std::cout << "Nombre: " << estudiante.nombre << std::endl;
+    std::cout << "Edad: " << estudiante.edad << std::endl;
+    std::cout << "Promedio: " << estudiante.promedio << std::endl;
 }
+
 int main() {
-    struct Estudiante estudiante1 = {"Juan", 20, 8.5};
-    mostrarEstudiante(&estudiante1);
+    Estudiante estudiante1 = {"Juan", 20, 8.5};
+    mostrarEstudiante(estudiante1);
 
     return 0;
 }
+
