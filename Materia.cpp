@@ -30,13 +30,13 @@ void eliminarMateria(Estudiante& estudiante, const std::string& nombreMateria) {
 void mostrarMaterias(const Estudiante& estudiante) {
     std::cout << "Materias de " << estudiante.nombre << ":\n";
     for (const auto& materia : estudiante.materias) {
-        std::cout << "- " << materia.nombre << " - Calificación: " << materia.calificacion << "\n";
+        std::cout << "- " << materia.nombre << " - Calificacion: " << materia.calificacion << "\n";
     }
 }
 
 int main() {
     Estudiante estudiante1 = {"Juan", 20, 8.5};
-    Materia materia1 = {"Matemáticas", 9.0};
+    Materia materia1 = {"Matematicas", 9.0};
     Materia materia2 = {"Historia", 7.5};
 
     agregarMateria(estudiante1, materia1);
