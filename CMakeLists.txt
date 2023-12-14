@@ -15,4 +15,8 @@ add_executable(Ej_3_CPP
         Asistencia.cpp)
 add_executable(Ej_3_C
         Asistencia.c)
+add_executable(Ej_4_CPP
+        Excepción.cpp)
+add_executable(Ej_4_C
+        Excepción.c)
 

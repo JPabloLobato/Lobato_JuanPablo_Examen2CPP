@@ -4,5 +4,7 @@ C:/Users/tinitotin/OneDrive/Documentos/GitHub/Lobato_JuanPablo_Examen2CPP/cmake-
 C:/Users/tinitotin/OneDrive/Documentos/GitHub/Lobato_JuanPablo_Examen2CPP/cmake-build-debug/CMakeFiles/Ej_2_C.dir
 C:/Users/tinitotin/OneDrive/Documentos/GitHub/Lobato_JuanPablo_Examen2CPP/cmake-build-debug/CMakeFiles/Ej_3_CPP.dir
 C:/Users/tinitotin/OneDrive/Documentos/GitHub/Lobato_JuanPablo_Examen2CPP/cmake-build-debug/CMakeFiles/Ej_3_C.dir
+C:/Users/tinitotin/OneDrive/Documentos/GitHub/Lobato_JuanPablo_Examen2CPP/cmake-build-debug/CMakeFiles/Ej_4_CPP.dir
+C:/Users/tinitotin/OneDrive/Documentos/GitHub/Lobato_JuanPablo_Examen2CPP/cmake-build-debug/CMakeFiles/Ej_4_C.dir
 C:/Users/tinitotin/OneDrive/Documentos/GitHub/Lobato_JuanPablo_Examen2CPP/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/tinitotin/OneDrive/Documentos/GitHub/Lobato_JuanPablo_Examen2CPP/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -238,6 +238,72 @@ build Ej_3_C.exe: C_EXECUTABLE_LINKER__Ej_3_C_Debug CMakeFiles/Ej_3_C.dir/Asiste
   TARGET_IMPLIB = libEj_3_C.dll.a
   TARGET_PDB = Ej_3_C.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Ej_4_CPP
+
+
+#############################################
+# Order-only phony target for Ej_4_CPP
+
+build cmake_object_order_depends_target_Ej_4_CPP: phony || CMakeFiles/Ej_4_CPP.dir
+
+build CMakeFiles/Ej_4_CPP.dir/Excepción.cpp.obj: CXX_COMPILER__Ej_4_CPP_unscanned_Debug C$:/Users/tinitotin/OneDrive/Documentos/GitHub/Lobato_JuanPablo_Examen2CPP/Excepción.cpp || cmake_object_order_depends_target_Ej_4_CPP
+  DEP_FILE = CMakeFiles\Ej_4_CPP.dir\Excepción.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ej_4_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ej_4_CPP.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Ej_4_CPP
+
+
+#############################################
+# Link the executable Ej_4_CPP.exe
+
+build Ej_4_CPP.exe: CXX_EXECUTABLE_LINKER__Ej_4_CPP_Debug CMakeFiles/Ej_4_CPP.dir/Excepción.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Ej_4_CPP.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Ej_4_CPP.exe
+  TARGET_IMPLIB = libEj_4_CPP.dll.a
+  TARGET_PDB = Ej_4_CPP.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Ej_4_C
+
+
+#############################################
+# Order-only phony target for Ej_4_C
+
+build cmake_object_order_depends_target_Ej_4_C: phony || CMakeFiles/Ej_4_C.dir
+
+build CMakeFiles/Ej_4_C.dir/Excepción.c.obj: C_COMPILER__Ej_4_C_unscanned_Debug C$:/Users/tinitotin/OneDrive/Documentos/GitHub/Lobato_JuanPablo_Examen2CPP/Excepción.c || cmake_object_order_depends_target_Ej_4_C
+  DEP_FILE = CMakeFiles\Ej_4_C.dir\Excepción.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ej_4_C.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ej_4_C.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Ej_4_C
+
+
+#############################################
+# Link the executable Ej_4_C.exe
+
+build Ej_4_C.exe: C_EXECUTABLE_LINKER__Ej_4_C_Debug CMakeFiles/Ej_4_C.dir/Excepción.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Ej_4_C.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Ej_4_C.exe
+  TARGET_IMPLIB = libEj_4_C.dll.a
+  TARGET_PDB = Ej_4_C.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -276,6 +342,10 @@ build Ej_3_C: phony Ej_3_C.exe
 
 build Ej_3_CPP: phony Ej_3_CPP.exe
 
+build Ej_4_C: phony Ej_4_C.exe
+
+build Ej_4_CPP: phony Ej_4_CPP.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -284,7 +354,7 @@ build Ej_3_CPP: phony Ej_3_CPP.exe
 #############################################
 # Folder: C:/Users/tinitotin/OneDrive/Documentos/GitHub/Lobato_JuanPablo_Examen2CPP/cmake-build-debug
 
-build all: phony Ej_1_CPP.exe Ej_1_C.exe Ej_2_CPP.exe Ej_2_C.exe Ej_3_CPP.exe Ej_3_C.exe
+build all: phony Ej_1_CPP.exe Ej_1_C.exe Ej_2_CPP.exe Ej_2_C.exe Ej_3_CPP.exe Ej_3_C.exe Ej_4_CPP.exe Ej_4_C.exe
 
 # =============================================================================
 # Built-in targets
