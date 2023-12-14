@@ -11,4 +11,8 @@ add_executable(Ej_2_CPP
         Materia.cpp)
 add_executable(Ej_2_C
         Materia.c)
+add_executable(Ej_3_CPP
+        Asistencia.cpp)
+add_executable(Ej_3_C
+        Asistencia.c)
 

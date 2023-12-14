@@ -172,6 +172,72 @@ build Ej_2_C.exe: C_EXECUTABLE_LINKER__Ej_2_C_Debug CMakeFiles/Ej_2_C.dir/Materi
   TARGET_IMPLIB = libEj_2_C.dll.a
   TARGET_PDB = Ej_2_C.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Ej_3_CPP
+
+
+#############################################
+# Order-only phony target for Ej_3_CPP
+
+build cmake_object_order_depends_target_Ej_3_CPP: phony || CMakeFiles/Ej_3_CPP.dir
+
+build CMakeFiles/Ej_3_CPP.dir/Asistencia.cpp.obj: CXX_COMPILER__Ej_3_CPP_unscanned_Debug C$:/Users/tinitotin/OneDrive/Documentos/GitHub/Lobato_JuanPablo_Examen2CPP/Asistencia.cpp || cmake_object_order_depends_target_Ej_3_CPP
+  DEP_FILE = CMakeFiles\Ej_3_CPP.dir\Asistencia.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ej_3_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ej_3_CPP.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Ej_3_CPP
+
+
+#############################################
+# Link the executable Ej_3_CPP.exe
+
+build Ej_3_CPP.exe: CXX_EXECUTABLE_LINKER__Ej_3_CPP_Debug CMakeFiles/Ej_3_CPP.dir/Asistencia.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Ej_3_CPP.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Ej_3_CPP.exe
+  TARGET_IMPLIB = libEj_3_CPP.dll.a
+  TARGET_PDB = Ej_3_CPP.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Ej_3_C
+
+
+#############################################
+# Order-only phony target for Ej_3_C
+
+build cmake_object_order_depends_target_Ej_3_C: phony || CMakeFiles/Ej_3_C.dir
+
+build CMakeFiles/Ej_3_C.dir/Asistencia.c.obj: C_COMPILER__Ej_3_C_unscanned_Debug C$:/Users/tinitotin/OneDrive/Documentos/GitHub/Lobato_JuanPablo_Examen2CPP/Asistencia.c || cmake_object_order_depends_target_Ej_3_C
+  DEP_FILE = CMakeFiles\Ej_3_C.dir\Asistencia.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ej_3_C.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ej_3_C.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Ej_3_C
+
+
+#############################################
+# Link the executable Ej_3_C.exe
+
+build Ej_3_C.exe: C_EXECUTABLE_LINKER__Ej_3_C_Debug CMakeFiles/Ej_3_C.dir/Asistencia.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Ej_3_C.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Ej_3_C.exe
+  TARGET_IMPLIB = libEj_3_C.dll.a
+  TARGET_PDB = Ej_3_C.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -206,6 +272,10 @@ build Ej_2_C: phony Ej_2_C.exe
 
 build Ej_2_CPP: phony Ej_2_CPP.exe
 
+build Ej_3_C: phony Ej_3_C.exe
+
+build Ej_3_CPP: phony Ej_3_CPP.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -214,7 +284,7 @@ build Ej_2_CPP: phony Ej_2_CPP.exe
 #############################################
 # Folder: C:/Users/tinitotin/OneDrive/Documentos/GitHub/Lobato_JuanPablo_Examen2CPP/cmake-build-debug
 
-build all: phony Ej_1_CPP.exe Ej_1_C.exe Ej_2_CPP.exe Ej_2_C.exe
+build all: phony Ej_1_CPP.exe Ej_1_C.exe Ej_2_CPP.exe Ej_2_C.exe Ej_3_CPP.exe Ej_3_C.exe
 
 # =============================================================================
 # Built-in targets
