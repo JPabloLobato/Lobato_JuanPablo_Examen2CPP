@@ -1,3 +1,5 @@
+//Parte 2 Ej 2 en C
+
 #include <stdio.h>
 #include <string.h>
 
